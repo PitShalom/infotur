@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins' > 
+    <script src="js/cadastro.js"></script>
+    <link rel="stylesheet" href="css/cadastro.css">
+    
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <div></div>
+        <div></div>
+        <img src="../../Imagens/Capivara 2.png" height="80px" width="105px">
+    </header>        
+
+    <main>
+        <section>
+            <form action="cadastro" method="post"  onsubmit="validarFormulario()">
+                <h1>Cadastre-se</h1>
+                <br>
+                <input type="text" name="nome" placeholder="Nome:" id="nome" required maxlength="100" minlength="3">
+                <br>
+                <input type="email" name="email" placeholder="E-Mail:" id="email" required maxlength="100">
+                <br>
+                <input type="password" name="senha" placeholder="Senha:" id="senha" required maxlength="30" minlength="8">
+                <br>
+                <input type="text" name="cpf" placeholder="CPF:" id="cpf" required>
+                <br>
+                <input type="tel" name="telefone" placeholder="Telefone:" id="telefone">
+
+                <br>
+                <p><input type="checkbox">Eu li e concordo com os <h2>termos de uso</h2> <h4> e </h4> <h3>políticas de privacidade.</h3> </p> <br>
+                <br>
+                <button>Confirmar</button>
+                <div>
+                </div>
+                <img src="../../Imagens/Seta.png" width="75px" class="seta">
+                <div>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins' > 
+    <title>Login</title>
+</head>
+
+
+<body>
+    <header>
+    <div></div>
+    <div></div>
+    <img src="../Imagens/Capivara 2.png" height="120px" class="capiiii">
+    </header>
+    <main>
+        <div class="fundoo"></div>
+        <section>
+            <div class="issae">
+            <form action="/login" method="POST">
+                >
+                <h2>Login</h2>
+                <br>
+                <input type="email" name="email" placeholder="E-Mail:" id="email" required maxlength="100">
+                <br>
+                <input type="password" name="senha" placeholder="Senha:" id="senha" required maxlength="30" minlength="8">
+                <h>Esqueceu a Senha?</h>
+                <br>
+                <div>
+                </div>
+                <button type="submit">Entrar</button>
+                <div>
+                <img src="../Imagens/Seta.png" width="40px">
+                </div>
+            </form>
+            </div>
+        </section>
+    </main>   
+    <style>
+
+        @media (max-width: 480px) {
+           
+            body {
+                background-image: url(Imagens/fundo.png);
+                background-size: 100%;
+                margin: none;
+                 
+                 
+            }
+        
+            h2{
+                font-family: "poppins";
+            }
+        
+            header :nth-child(1){
+                background-color: #000000;
+                max-width: 300%;
+                margin: none;
+                position: relative;
+                width: 520px;
+                right: 20px;
+                top: -8px;
+                height: 100px;
+                opacity: 50%;
+            }
+        
+            header :nth-child(3) {
+                position:relative;
+                left: 128px;
+                width: 204px;
+                height: 120px;
+                top: -120px
+        
+                 
+            }
+        
+            .issae{
+                opacity: 90%;
+                position:absolute;
+                top: 370px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 2%;    
+                padding: 5%;   
+                color: white; 
+                text-align: center;
+        
+        
+                
+            }
+        
+            input{
+                padding: 10px;
+                border-radius : 8px;
+                outline: none;
+                width: 320px;
+                font-size: 15px;
+                border: none;
+                font-family: "poppins";
+        
+            }
+        
+            button{
+                background-color: rgb(94, 158, 29);
+                padding: 10px;
+                width: 130px;
+                border: none;
+                border-radius: 8px;
+                font-family: "poppins";
+                color: white;
+                position: relative;
+                left: 105px;
+                top: 43px;
+            }
+        
+            main :nth-child(2){
+                width: 20px;
+                color: white;
+        
+            }
+        
+            form :last-child {
+                width: 70px;
+                top: 500px;
+                
+            }
+        
+            form :nth-child(10) {
+                border-bottom: 100%;
+                position:relative;
+                background-size: 30px;   
+        
+         }
+        
+         h{
+            font-size: 99%;
+            color: rgb(143, 246, 41);
+            font-family: "poppins";
+            position: relative;
+            right: 90px;
+            top: 10px;
+        
+         }
+        
+         .fundoo{
+            opacity: 50%;
+            background-color: black;
+            padding: 100px;
+            position: relative;
+            top: -35px;
+            height: 150px;
+            border-radius: 5px;
+            width: 170px;
+            left: 50px;
+         }
+        
+        } 
+        
+        </style>
+</body>
+</html>

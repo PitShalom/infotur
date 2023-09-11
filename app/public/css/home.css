@@ -1,0 +1,817 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/* zerando css */
+
+
+/* @media (max-width: 480px){ */
+    /* formatacap header */
+                body{
+                    font-family: 'Poppins', sans-serif;
+                }
+
+                    header{
+                        background-image: url(../imagens/bacheaader.jpg);
+                        /* background-repeat: no-repeat; */
+                        width: 100%;
+                        height: 150vh;
+                    }
+           z
+                /* formatacao logo */
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+                /* facilitar o codigo de momento */
+
+                p{
+                color: white;
+                font-family: poppins;
+                } 
+                /* deixando textos brancos */
+
+                h1, h2, h3, h4, h5, h6{
+                    color:white
+                }
+                /* deixando paragrafos brancos */
+
+                input[type="text"] {
+                    display: flexbox;
+                    padding: 8px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    width: 200%;
+                }
+                /* barra de pesquisa header */
+
+                #introducao p:nth-child(1){
+                    font-weight: bold;
+                    font-size: 30px;
+                    width: 80%;
+                }
+                /* texto de introducao */
+
+                #container-logo{
+                    background-color: rgba(0, 0, 0, 0.3);
+                    height: 70px;
+                }
+                /* container logo (faixa escura) */
+
+                #introducao{
+                    background-color: rgba(0, 0, 0, 0.3);
+                    margin-top: 100px;
+                    height: 250px;
+                }
+                /* faixa escura introducao */
+
+                #paragrafo1{
+                    padding-top: 30px;
+                    text-align: center;
+                    font-size: 30px;
+                }
+                /* texto grande de recepcao */
+
+                #paragrafo2{
+                    text-align: center;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-bottom: 50px;
+                    padding-top: 20px;
+                    font-size: 17px;
+                }
+                /* oq e o infotur */
+
+                nav{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 30px;
+                }
+                /* barra de pesquisa */
+                #naveBar{
+                    width: 400px;
+                    height: 40px;
+                    border-radius: 10px;
+                }
+                /* barra de pesquisa */
+                input::placeholder{
+                    text-align: center;
+                    font-size: 15px;
+                }
+                /* textinho dentro da barra de navegacao */
+
+                #localizacao{
+                    margin: auto;
+                    background-color: rgb(255, 255, 255);
+                    margin-top: 30px;
+                    height: 200px;
+                    width: 400px;
+                    border-radius: 20px;
+                }
+                /* fundo branco da localizacao */
+
+                .textosimg{
+                    text-align: center;
+                    color: #8564D7;
+                    font-size: 26px;
+                    padding-top: 30px;
+                }
+                /* texto antes do boatao 'localizaçao' */
+                
+                #botao_localizcao{
+                    all: unset;
+                    color: white;
+                    font-size: 30px;
+                    background-color: #7DB121;
+                    margin-top: 30px;
+                    width: 380px;
+                    text-align: center;
+                    border-radius: 10px;
+                    margin-left: 2.5%;
+                }
+                /* botao de localicao */
+                #botao_localizcao:hover{
+                    cursor: pointer;
+                    background-color: #8564D7;
+                }   
+                /* muda o botao de cor */
+
+            
+
+                            /* 
+                            li{
+                                color: rgb(218, 20, 20);
+                                list-style: none;
+                            }
+
+                            #maria-joaquina{
+                                background-color: white; 
+                                height: 200px;
+                            }
+                            
+
+                            a{
+                                color: white;
+                            } */
+
+
+    /* fim fortacao header */
+
+
+    /* formatacao main */
+        
+                /* main{
+                    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv-7wF8Sgmtfm9-8jVwskFsS7hnFyPZ8M7ZA&usqp=CAU);
+                    opacity: 0.6;
+                }   */
+
+                .Ofertas{
+                    color: #8564D7;
+                    font-size: 35px;
+                    text-align: start;
+                    margin-left: 15px;
+                    margin-top: 70px;
+                }
+                /* texto iintrodutorio header */
+                
+
+                .parasimples{
+                    text-align: start;
+                    margin-left: 15px;
+                    font-size: 15px;
+                    margin-bottom: 15px;
+                    color: rgba(0, 0, 0, 0.726);
+                }
+                /* melhores ofertas */
+
+                /* #contrasteslide{
+                    position: absolute;
+                    width: 450px;
+                    height:227px;
+                    margin-left: 15px;
+                    border-radius: 5px 5px 0px 0px;
+                    opacity: 0.2;
+                    top: 891px;
+                } */
+
+                .imagem-slide{
+                    width: 450px;
+                    height: 250px;
+                    margin-left: 15px;
+                    margin-top: 0px;
+                    border-radius: 5px;
+                    filter: grayscale(20%);
+                }
+                /* imagem do slide */
+                
+                .parapreco{
+                font-size: 20px;
+                text-align: center; 
+                position: relative;
+                bottom: 220px;
+                }
+                /* preco no slide */
+
+                .vermais{
+                    border: white 2px solid;
+                    border-radius: 25px;
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: white;
+                    width: 100px;
+                    padding: 3px 100px;
+                    margin-left: 85px; 
+                    position: relative;
+                    bottom: 200px;
+                }
+                /* botao ver mais do slide */
+
+                #backgroundgreen{
+                    position: relative;
+                    width: 140px;
+                    height: 40px;
+                    border-radius: 20px;
+                    margin-left: 43px;
+                    bottom: 240px;  
+                }
+                /* fundo do tempo */
+
+                .textongreen{
+                    position: relative;
+                    font-size: 15px;
+                    margin-left: 60px;
+                    bottom: 279px;
+                    font-weight: bold;
+                }
+                /* texto do tempo */
+
+                #backgroundPurple{
+                    position: relative;
+                    height: 50px;
+                    width: 450px;
+                    border-radius: 0px 0px 5px 5px;
+                    margin-left: 15px;
+                    bottom: 120px;
+                }
+                /* linha roxa do slide */
+
+                .textonoroxo{
+                    position: relative;
+                    font-size: 17pt;
+                    text-align: center; 
+                    bottom: 166px;
+                    font-weight: bold; 
+                }
+                /* texto da linha roxa */
+
+                .comprar{
+                    background-color: #8564D7;
+                    color: white;
+                    border-radius: 17px;
+                    text-decoration: none;
+                    padding: 3px 10px;
+                    position: relative;  
+                    margin-left: 15px;
+                    bottom: 197px;
+                } 
+                /* botao link pagina de compras */
+
+                .fornecedor{
+                text-align: right;
+                margin-right: 32px;
+                position: relative;
+                bottom: 217px;
+                font-size: 11pt;
+                color: black;
+                }
+                /* disponibilzado por prefeitura */
+
+                .indicador-de-slide{
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                }
+                /* zerando indicador de slide */
+
+                .indicador-de-slide li{
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background-color: lightgray;
+                    position: relative; 
+                    bottom: 195px; 
+                }
+                /* adicionando estilo a todos como cor e centralizar */
+
+                .indicador-de-slide li.ativo{
+                    background-color: #8564D7;
+                }
+                /* unico slide ativo */
+
+                .melhoresAvaliados{
+                    position: relative;
+                    bottom: 150px;
+                    height: 550px;
+                    background-image: url(https://static.displate.com/857x1200/displate/2022-05-10/26d17bb485bbe70666642fab351f6c07_729e3d72c997a8035c56e0f49199e43f.jpg);
+                }
+                /* fundo secao de melhores avaliados */
+
+                .textorecepcao{
+                    font-size: 25pt;
+                    margin-left: 15px;
+                    padding-top: 10px;
+                }
+                /* titulo da secao melhores avaliados */
+
+                .parasimplesType2{
+                    text-align: start;
+                    margin-left: 15px;
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                    color: white
+                }
+                /* texto introxuzindo a secao */
+
+                .parapreco2{
+                    border: white solid 2px;
+                    border-radius: 15px;
+                    padding: 1px 15px 1px 15px;
+                    font-size: 15pt;
+                    text-align: center;
+                    color: white;
+
+                    position: relative;
+                    margin-left: 180px;
+                    bottom: 150px;
+                }
+                /* texto de gatuito no meio da imagem */
+
+                .textongreen2{
+                    position: relative;
+                    font-size: 15px;
+                    margin-left: 60px;
+                    bottom: 212px;
+                    font-weight: bold;
+                }
+                /* texto em cima do verde do horario de funcionamento */
+            
+                #backgroundgreen2{
+                    position: relative;
+                    width: 170px;
+                    height: 30px;
+                    border-radius: 20px;
+                    margin-left: 43px;
+                    bottom: 180px;  
+                }
+                /* fundo verde que recebe p texto das horas de funcionamento */
+
+                #backgroundPurple2{
+                    position: relative;
+                    height: 50px;
+                    width: 450px;
+                    margin-left: 15px;
+                    bottom: 70px;
+                }
+                /* nome do lugar encima do fundo roxo */
+
+                .textonoroxo2{
+                    position: relative;
+                    font-size: 17pt;
+                    text-align: center; 
+                    bottom: 120px;
+                    font-weight: bold; 
+                }
+                /* fundo roxo que recebe nome do lugar */
+
+                .backwhite{
+                    position: relative;
+                    height: 130px;
+                    width: 450px;
+                    border-radius: 0px 0px 7px 7px;
+                    margin-left: 15px;
+                    bottom: 172px;
+                }
+                /* parte branca que recebe um texo sobre o lugar */
+
+                .textoconvite{
+                    color: black;     
+                    margin-left: 30px;
+                    margin-top: 10px;
+                    position: relative;
+                    bottom: 300px;
+                    font-size: 15px;
+                    text-align: justify;   
+                } 
+                /* texto convite q fica na parte branca */
+
+                .vermaiscantoverde{
+                    background-color: #7DB121;
+                    border-radius: 15px;
+                    width: 40px;
+                    height: 25px;
+                    color: white;
+                    padding: 1px 11px 1px 11px;
+                    position: relative;
+                    bottom: 280px;
+                    left: 240px; 
+                }
+                /* botao ver mais no fim da secao */
+            
+                .avaliacao{
+                    display: inline-block;
+                    font-size: 0;
+                }
+                /* estrelas da avaliacao */
+
+                .estrela{
+                    display: inline-block;
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 4px;
+                    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23ddd%22 d=%22M12 2l3.09 6.318 6.902.998-4.998 4.864 1.491 6.914L12 18.187l-6.494 3.907 1.491-6.914L2.009 9.316l6.902-.998L12 2z%22/%3E%3C/svg%3E'); 
+                    background-repeat: no-repeat;
+                    position: relative;
+                    bottom: 280px;
+                    left: 30px;
+                }
+                /* colocando as estrelas com o estilo */
+
+                .estrela:hover{
+                    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23ffcc00%22 d=%22M12 2l3.09 6.318 6.902.998-4.998 4.864 1.491 6.914L12 18.187l-6.494 3.907 1.491-6.914L2.009 9.316l6.902-.998L12 2z%22/%3E%3C/svg%3E');
+                }
+                /* quando o mouse passa pela estrela */
+            
+                .slidemelhoresavaliados{
+                    display: inline-block;
+                    font-size: 0;
+                }
+                /* div das barras representativas de slide show */
+
+                .barradeslide{
+                    width: 10px;
+                    height: 5px;
+                    border-radius: 3px;
+                    background-color: black;
+                    color: black;
+                }
+                /* div das barras representativas de slide show */
+
+                .categorias{   
+                    color: #8564D7;
+                    font-size: 35px;
+                    text-align: center;
+                    margin-left: 15px;
+                    margin-top: 70px;
+                    position: relative;
+                    bottom: 200px;
+                }
+                /* titulo categorias */
+
+                .parasimples2{
+                    text-align: center;
+                    margin-left: 15px;
+                    font-size: 15px;
+                    margin-bottom: 15px;
+                    color: rgba(0, 0, 0, 0.726);
+                    position: relative;
+                    bottom: 200px;
+                }
+                /* texto que iinicia as categorias */
+
+                .imgredonda1 {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    margin-left: 40px;
+                    position: relative;
+                    bottom: 170px;
+                }
+                /* imagem redonda 1 */
+                .imgredonda2 {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    margin-left: 42%;
+                    position: relative;
+                    bottom: 330px;
+                }
+                /* imagem redonda 2 */
+                .imgredonda3 {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    margin-left: 75%;
+                    position: relative;
+                    bottom: 430px;
+                }
+                /* imagem redonda 3 */
+
+                .secao2{
+                    background-color: #68449c;
+                    position: relative;
+                    bottom: 370px;
+                    height: 1500px;
+                }
+                /* secao daa vantagens do infotur */
+
+
+                .titulocaracteristicas{
+                    font-size: 25pt;
+                    color: white;
+                    text-align: center;
+                    padding-top: 20px;
+                }
+                /* titulo da secao "infotur" */
+
+                .subtitulo{
+                    font-size: 17pt;
+                    color: white;
+                    text-align: center;
+                    padding-bottom: 10px;
+                }
+                /* subtitulo da secao'principais vantagens' */
+
+                .divcaracteristicas{
+                    background-color: white;
+                    border-radius: 20px;
+                    width: 450px;
+                    margin: auto;
+                    height: 250px;
+                    margin-bottom: 40px;
+                }
+                /* divs brancas */
+
+                .titulobloco{
+                    color: #8564D7;
+                    font-size: 17pt;
+                    margin-left: 30px;
+                    padding-top: 20px;
+                }
+                /* titulo das divs brancas */
+
+                .textodacaixa{
+                    color: black;
+                    font-size: 20px;
+                    position: relative;
+                    bottom: 40px;
+                    margin-left: 30px;
+                    width: 330px;
+                }
+                /* texto de cada div */
+
+                .saibamaiscaixa{
+                    color: #7DB121;
+                    font-size: 13pt;
+                    text-decoration: underline;
+                    margin-left: 30px;
+                }
+                /* link saiba mais de cada div */
+
+                .minilogoref{
+                    margin-left: 370px;
+                }
+                /* imagem referencial da div */
+
+                #grandediv{
+                    background-color: white;
+                    border-radius: 20px;
+                    width: 450px;
+                    margin: auto;
+                    height: 430px;
+                    margin-bottom: 40px;
+                }
+                /* ultima das divs */
+
+                #grandsecao{
+                    color: #8564D7;
+                    font-size: 17pt;
+                    margin-left: 200px;
+                    padding-top: 20px;
+                }
+                /* titulo da ultima div */
+
+                #pessoascoversando{
+                    position: relative;
+                    top: 50px;
+                    height: 220px;
+                    width: 180px;
+                }
+                /* imagem da ultima div */
+
+                #grandetexto{
+                    color: black;
+                    font-size: 20px;
+                    position: relative;
+                    bottom: 200px;
+                    margin-left: 200px;
+                    width: 220px;
+                }
+                /* texto da ultima div */
+
+                .titulopreto{
+                    font-size: 23pt;
+                    color:rgba(0, 0, 0, 0.8);
+                    margin-left: 15px;
+                    position: relative;
+                    bottom: 300px;
+                    padding-bottom: 10px;
+                }
+                /* titulo da secao com funcoes */
+
+                .imagemrepresenatacao{
+                    width: 450px;
+                    height: 300px;
+                    position: relative;
+                    bottom: 300px;
+                    border-radius:20px 20px 0px 0px;
+                    margin-left: 20px;
+                }
+
+                .textoexplica{
+                    color: black;
+                    margin-left: 30px;
+                    position: relative;
+                    bottom: 300px;
+                    font-size: 15pt;
+                    z-index: 1;
+                }
+
+                .fundobranco{
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+                    width: 450px;
+                    position: relative;
+                    bottom: 425px;
+                    height: 135px;
+                    margin-left: 20px; 
+                    border-radius: 0px 0px 10px 10px;
+                    z-index: 0;
+                }
+
+                #encontrar1{
+                    background-color: #8564D7;
+                    color: white;
+                    border-radius: 13px;
+                    width: 100px;
+                    height: 25px;
+                    border: none;
+                    margin-left: 25px;
+                    position: relative;
+                    bottom: 400px;
+                    font-size: 13pt;
+                }
+
+                .saibamais{
+                    color: #7DB121;
+                    font-size: 14pt;
+                    position: relative;
+                    bottom: 420px;
+                    margin-left: 350px;
+                }
+
+                .saibamais2{
+                    color: #7DB121;
+                    font-size: 14pt;
+                    position: relative;
+                    bottom: 263px;
+                    margin-left: 350px;
+                }
+                
+                #encontrar2{
+                    background-color: #8564D7;
+                    color: white;
+                    border-radius: 13px;
+                    width: 100px;
+                    height: 25px;
+                    border: none;
+                    margin-left: 25px;
+                    position: relative;
+                    bottom: 240px;
+                    font-size: 13pt;
+                }
+                .textoexplica2{
+                    color: black;
+                    margin-left: 30px;
+                    position: relative;
+                    bottom: 290px;
+                    font-size: 15pt;
+                    z-index: 1;
+                }
+
+                .fundobranco2{
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+                    width: 450px;
+                    position: relative;
+                    bottom: 448px;
+                    height: 135px;
+                    margin-left: 20px; 
+                    border-radius: 0px 0px 10px 10px;
+                    z-index: 0;
+                }
+
+
+
+                .linhadivisaopreta{
+                    border-bottom: 2px solid black; 
+                    height: 0;
+                    width: 450px;
+                    margin: auto;
+                    margin-top: 30px;
+                    position: relative;
+                    bottom: 380px; 
+                }/* linha divisoria */
+
+
+
+
+                #meu-checkbox:checked ~ .meu-texto {
+                    display: block;
+                  }
+    /* fim formatacao header */
+
+
+    /* css do footer */
+
+                #rodape{
+                    background-color: #68449c;
+                }
+                /* cor do fundo */
+
+                .textosrodape{
+                    position: relative;
+                    font-size: 20px;  
+                    margin-left: 20px;
+                    padding-top: 28px;
+                    color: white;
+                }
+                /* nome do projeto no rodape */
+
+                .textosrodape2{
+                    position: relative;
+                    font-size: 18px;  
+                    margin-left: 20px;
+                    padding-top: 10px;
+                    color: white;
+                }
+                /* demias textos */
+
+                .linkrodape{
+                    margin-left: 20px;
+                    border: white solid 2px;
+                    border-radius: 15px;
+                    padding: 1px 15px 1px 15px;
+                    font-size: 15pt;
+                    text-align: center;
+                    color: white;
+                }/* fale conosco rodape */
+
+                .linhadivisao{
+                    border-bottom: 2px solid white; 
+                    height: 0;
+                    width: 450px;
+                    margin: auto;
+                    margin-top: 30px;
+                }/* linha divisoria */
+
+                #logorodape{
+                    position: relative;
+                    height: 115px;
+                    width: 170px;
+                    padding: 0px; 
+                    bottom: 5px; 
+                }
+                /* logo no rodape */
+
+                .copyrirght{
+                    position: relative;
+                    font-size: 12px;
+                    text-align: justify;
+                    margin-left: 140px;
+                    bottom: 90px;
+                    padding-right: 14px;
+                    padding-left:10px;
+                }
+                /* texto copy */
+
+                .logorodape{
+                    width: 37px;
+                    height: 35px;
+                    margin-left: 20px;
+                    padding-right:0px;
+                    position: relative;
+                    bottom: 85px;   
+                }
+                /* primeria logo (inta) com margem */
+                .logorodape2{
+                    width: 37px;
+                    height: 35px;
+                    padding-right:0px;
+                    position: relative;
+                    bottom: 85px;   
+                }
+                /* outras logos sem margem esquerda */
+
+    /* fim formatacao footer */
